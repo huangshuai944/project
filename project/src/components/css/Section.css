@@ -1,0 +1,89 @@
+.secTop{
+	border-bottom:4px solid #E50065;
+	overflow: hidden;
+	height: 40px;
+}
+.secTop>span{
+	float: left;
+	width: 280px;
+	height: 40px;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: "黑体";
+	line-height: 40px;
+	color: #E50065;
+}
+.secTop>span>b{
+	margin: 0 10px;
+	float: left;
+	width: 30px;
+	height: 30px;
+	background: url(../images/guoku/category.png) no-repeat -27px 6px;
+}
+.secTop>ul{
+	float: left;
+}
+.secTop li{
+	height: 40px;
+	float: left;
+	line-height: 40px;
+	padding: 0 11px;
+	font-family: "微软雅黑";
+	cursor: pointer;
+}
+.secTop a{
+	height: 40px;
+	line-height: 40px;
+	padding: 0 11px;
+	font-family: "微软雅黑";
+	cursor: pointer;
+	text-decoration: none;
+	color: black;
+	font-size: 13px;
+}
+.secTop a:hover{
+	text-decoration: underline;
+}
+.secLeft{
+	height:441px;
+	width:280px;
+	border:1px solid #F1F1F1;
+	float:left;
+}
+.secLeft>li{
+	border-bottom: 1px solid #E6E6E6;
+	background: #F9F9F9;
+	height: 63px;
+}
+.secRight{
+	position: absolute;
+	top: 50px;
+	right: 0;
+	bottom: 0;
+	left: 280px;
+}
+.secRight>ul{
+	width: 690px;
+	bottom: 0;
+	top: -55px;
+	left: -20px;
+	position: absolute;
+}
+.secRight>ul>li{
+	width: 155px;
+	margin: 5px;
+	height:48%;
+	overflow: hidden;
+	float:left;
+	border:1px solid transparent;
+}
+.secRight>ul>li:hover{
+	border:1px solid #E50065;
+}
+.picture{
+	position: absolute;
+	height:427px;
+	width:250px;
+	left:-280px;top: -55px;
+	border:1px solid #F1F1F1;
+}

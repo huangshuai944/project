@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+body{
+	font-family: "微软雅黑";
+}
+#max{
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+section{
+	border: 2px transparent solid;
+	height: 490px;
+	width: 100%;
+	margin-top: 10px;
+	padding-top: 5px;
+	position: relative;
+}
+section:hover{
+	border: 2px #EEE solid;
+	box-shadow: 0px 0px 10px 0px #F9F9F9;
+}
+footer{
+	height: 500px;
+	background: #350508;
+}

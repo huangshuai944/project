@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <link rel="stylesheet" href="../src/index.css" />
+    <title>React App</title>
+    <script src="jquery-3.1.1.js"></script>
+  </head>
+  <body>
+	  <header id="header">
+	  </header>
+  	<div id="max">
+	    <section id="section1"></section>
+	    <section id="section2"></section>
+	    <section id="section3"></section>
+	    <section id="section4"></section>
+    </div>
+	  <footer id="footer"></footer>
+  </body>
+</html>
+<script>
+	window.onload=function(){
+		var li=document.getElementsByClassName("ul1")[0].childNodes[0];
+		var lis=li.getElementsByTagName("li");
+		for(var i=0;i<lis.length;i++){
+			lis[i].onmouseenter=function(){
+				if(this.getElementsByClassName("hide")[0].getAttribute("name")<4){
+					this.getElementsByClassName("hide")[0].style.width="280px";
+					this.getElementsByClassName("hide")[0].style.left="210px";
+				}else{
+					this.getElementsByClassName("hide")[0].style.width="140px";
+					this.getElementsByClassName("hide")[0].style.left="210px";
+				}
+			}
+			lis[i].onmouseleave=function(){
+				this.getElementsByClassName("hide")[0].style.left="0px";
+				this.getElementsByClassName("hide")[0].style.width="0px";
+			}
+		}
+	}
+	$(function(){
+		$(".secLeft li:not(:first-of-type)").hover(function(){
+			$(this).height('122px').siblings().height("62px");
+			$(this).parent().attr("name","1");
+		},function(){
+			$(this).parent().attr("name","0");
+				if($(this).parent().attr("name")=="1"){
+					$(this).height('62px');
+				}
+		})
+	})
+</script>

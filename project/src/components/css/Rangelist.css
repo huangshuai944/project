@@ -1,0 +1,63 @@
+.ul2 li{
+	background-color: #E50065;
+	list-style: none;
+	text-align: center;
+	padding: 0px 10px 13px 0;
+}
+.ul2 span{
+	padding: 5px 16px;
+	margin-right: 10px;
+	background-image: url(../images/guoku/category.png);
+	background-repeat: no-repeat;
+	background-position-x: 4px;
+}
+.span1{
+	background-position-y: 5px;
+}
+.span2{
+	background-position-y: -25px;
+}
+.span3{
+	background-position-y: -54px;
+}
+.span4{
+	background-position-y: -84px;
+}
+.span5{
+	background-position-y: -113px;
+}
+
+.span6{
+	background-position-y: -170px;
+}
+.span7{
+	background-position-y: -143px;
+}
+.ul2 li:hover{
+	background-color: #FFF;
+	color: #E50065;
+	cursor: pointer;
+}
+.ul2 li:hover span{
+	background-position-x: -24px;
+}
+.ul2 li:hover .span1{
+	background-position-x: -26px;
+}
+i{
+	font-style: normal;
+	font-weight: bold;
+}
+.ul2 a{
+	text-decoration: none;
+	color: #FFF;
+	font-size: 16px;
+	font-family: "微软雅黑";
+}
+.ul2 a:hover,.ul2 li:hover a{
+	color: #E50065;
+}
+.ul2 a:hover{
+	text-decoration: underline;
+}
+

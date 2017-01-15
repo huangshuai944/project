@@ -1,0 +1,45 @@
+.fooDiv{
+	 height:430px;
+	 width:900px;
+	 margin:0 auto;
+	 color:#FFF;
+}
+.footop{
+	height: 270px;
+	border-bottom: 1px solid #FFF;
+}
+dl{
+	float: left;
+	margin:2% 8% 0 0;
+}
+dd,dt{
+	font-family: "黑体";	
+	line-height: 40px;
+}
+dt{
+	font-size: 14px;
+	line-height: 25px;
+}
+.foobottom{
+	text-align: center;
+	padding-top: 2%;
+	font-family: "黑体";	
+}
+.foobottom>span{
+	display: block;
+}
+.foobottom>span>span{
+	margin:  30px;
+	position: relative;
+	top: 50px;
+	padding: 23px 31px;
+	background-image: url(../images/guoku/index.png);
+	background-repeat: no-repeat;
+	background-position-y: -162px;
+}
+.sina{
+	background-position-x: -372px;
+}
+.wechat{
+	background-position-x: -435px;
+}
